@@ -6,6 +6,7 @@ print("your first variable is:", first)
 print("your second variable is:", second)
 print("your third variable is:", third)
 
+
 # PS C:\Users\huawei\lpthw> python ex13.py first 2nd 3rd
 # the script is called: ex13.py
 # your first variable is: first
