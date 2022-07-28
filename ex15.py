@@ -5,13 +5,13 @@
 # # 加载或者打开filename这个文件。txt是一个文件对象，并不是文件本身
 # txt = open(filename)
 filename = input(">")
-txt = open(filename, "w+")
+txt = open(filename)
 # 打印
 print(f"Here's your file {filename} :")
 # 把文件读取出来并打印出来
 print(txt.read())
-print(txt.write("nihao"))
-txt.close()
+# print(txt.write("nihao"))
+# txt.close()
 # 打印
 print("Type thew filename again:")
 # 从键盘输入文件的名字
