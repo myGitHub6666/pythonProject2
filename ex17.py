@@ -14,7 +14,7 @@ print(f"Does the output file exists? {exists(to_file)}")
 print(f"ready,hit return to continue,CTRL-c to abort.")
 input()
 
-out_file = open(to_file,"w")
+out_file = open(to_file, "w")
 out_file.write(indata)
 
 print("Alright,all done")
