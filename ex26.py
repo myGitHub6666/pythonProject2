@@ -8,6 +8,6 @@ newfile = input("请输入用户文件：")
 if newfile:
     txt1 = open('newfile.txt', 'w', encoding="utf-8")
 else:
-    txt1 = open('newfile.txt',"x",encoding="utf-8")
+    txt1 = open('newfile.txt', "x", encoding="utf-8")
 txt1.write(file)
 txt.close()
