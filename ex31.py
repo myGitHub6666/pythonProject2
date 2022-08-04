@@ -11,7 +11,7 @@ if door == 1 :
 
     bear = int(input("> "))
 
-    if bear == 1 :
+    if bear == 1:
         print("the bear eats your face off. goof job")
     elif bear == 2 :
         print("the bear eats your legs off. good job")
@@ -19,17 +19,20 @@ if door == 1 :
         print(f"well, doing {bear} is probably better")
         print("bear runs away.")
 
-elif door == "2":
+elif door == 2:
     print("you stare into the endless abyss at cthulhu's retina.")
     print("1. Blueberries.")
     print("2. yellow jacket clothespins")
     print("3. understanding revolvers yelling melodies")
 
-    insanity = input("> ")
+    insanity = int(input("> "))
 
-    if insanity == "1" or insanity == "2":
+#   if insanity == "1" or insanity == "2":
+    if insanity in range(1, 3):
+        print(f">>>>{type(insanity)}")
+        print(">>>>", type(insanity))
         print("your body survives powered by a mind of jello")
-        print ("good job")
+        print("good job")
     else:
         print("the insanity rots your eyes into a pool of muck ")
         print("good job")
