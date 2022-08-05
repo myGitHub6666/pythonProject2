@@ -6,3 +6,6 @@ def myanimalS(animals_list):
 animals = ['bear', 'tiger', 'penguin', 'zebra']
 print(animals[0], animals[1], animals[2], animals[3])
 myanimalS(animals)
+
+while True:
+    print("___")
