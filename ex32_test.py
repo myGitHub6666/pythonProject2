@@ -8,3 +8,4 @@ for i in range(1, 8):
 
 for i in list1:
     print(f"list1中有{i}")
+print(list1)
