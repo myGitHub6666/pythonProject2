@@ -25,20 +25,20 @@ def bear_room():
     bear_moved = False
 
     while True:
-            choice = input("> ")
+        choice = input("> ")
 
-            if choice == "take honey":
-                dead("the bear looks at you then slaps your face off")
-            elif choice == "taunt bear" and not bear_moved:
-                print("the bear has moved from the door")
-                print("you can go through it now")
-                bear_moved = True
-            elif choice == "taunt bear" and bear_moved:
-                dead("the bear gets pissed off and chews your leg off")
-            elif choice == "open door" and bear_moved:
-                gold_room()
-            else:
-                print("I got no idea what that means")
+        if choice == "take honey":
+            dead("the bear looks at you then slaps your face off")
+        elif choice == "taunt bear" and not bear_moved:
+            print("the bear has moved from the door")
+            print("you can go through it now")
+            bear_moved = True
+        elif choice == "taunt bear" and bear_moved:
+            dead("the bear gets pissed off and chews your leg off")
+        elif choice == "open door" and bear_moved:
+            gold_room()
+        else:
+            print("I got no idea what that means")
 
 
 def cthulhu_room():
@@ -57,7 +57,7 @@ def cthulhu_room():
 
 
 def dead(why):
-    print(why,"good job")
+    print(why, "good job")
     exit(0)
 
 
@@ -73,8 +73,7 @@ def start():
     elif choice == "right":
         cthulhu_room()
     else:
-        dead("y ou stumble a around the room until you starve")
+        dead("you stumble a around the room until you starve")
 
 
 start()
-
