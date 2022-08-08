@@ -13,7 +13,8 @@ def gold_room():     # 定义一个函数。
     if how_much < 50:   # 如果how_much的值小于50，则打印出如下信息。并退出
         print("nice, you're not greedy, you win!")
         exit(0)
-    else:  # 如果how_much的值是其他的，就直接调用dead函数，并退出函数
+    #  一直无法走到这个else分支？？？？？？
+    else:  # 如果how_much的值是其他的，就直接调用dead函数，并退出函数 
         dead("you greedy bastard")
 
 
@@ -58,7 +59,7 @@ def cthulhu_room():     # 定义函数，并打印数据
 
 def dead(why):   # 定义dead函数的功能，传入位置参数输出打印
     print(why, "good job")
-    exit(0)
+    exit(0)     # 程序正常退出。
 
 
 def start():     # 定义start函数
