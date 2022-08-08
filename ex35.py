@@ -14,7 +14,7 @@ def gold_room():     # 定义一个函数。
         print("nice, you're not greedy, you win!")
         exit(0)
     #  一直无法走到这个else分支？？？？？？
-    else:  # 如果how_much的值是其他的，就直接调用dead函数，并退出函数 
+    else:  # 如果how_much的值是其他的，就直接调用dead函数，并退出函数
         dead("you greedy bastard")
 
 
