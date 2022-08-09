@@ -14,6 +14,7 @@ print(one_stuff)
 one_stuff.sort()
 one_stuff.reverse()
 print(one_stuff)
+
 print(" ".join(one_stuff))
 
 
