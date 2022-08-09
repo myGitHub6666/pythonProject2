@@ -1,0 +1,9 @@
+class Thing(object):
+
+    def test(self):
+        print(self)
+
+
+a = Thing()
+a.test()
+
