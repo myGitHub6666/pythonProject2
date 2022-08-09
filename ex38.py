@@ -33,4 +33,5 @@ print(' '.join(stuff))
 # 从列表下标为3的地方开始取值，直到索引为5，但是5的下标的值无法取到，类似于range(3,5)
 print(stuff[3:5])
 # 取出来的值用#相隔。
+
 print('#'.join(stuff[3:5]))
