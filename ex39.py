@@ -71,3 +71,11 @@ print(stuff1['name'])
 stuff1['name'] = 'pipi'
 stuff1['city'] ="xi'an"
 print(stuff1)
+# 给1赋值wow。
+stuff1[1] = 'wow'
+stuff1[0] = 'neato'
+print(stuff1)
+del stuff1['city']
+del stuff1[1]
+del stuff1[0]
+print(stuff1)
