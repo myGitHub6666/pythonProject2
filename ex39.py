@@ -59,3 +59,15 @@
 # {'name': 'zed', 'age': 39, 'height': 74, 'city': 'SF'}
 #
 # In [17]:
+stuff = [1, 3, 4, 5]
+print(stuff[0])
+print(stuff[1])
+stuff[1] = 4
+print(stuff[1])
+print(stuff)
+
+stuff1 = {'name': 'xiaoxin', 'age': 3, 'height': 105}
+print(stuff1['name'])
+stuff1['name'] = 'pipi'
+stuff1['city'] ="xi'an"
+print(stuff1)
