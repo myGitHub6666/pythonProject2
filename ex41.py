@@ -10,22 +10,22 @@
 # 有什么（has a） ： 用来描述某个东西是由另外的一些东西组成的，或者某个东西有某些特征
 
 # 创建一个叫X的类，他是Y的一种
-class X(Y):
-    pass
-
-# 类X有一个__init__，它接收self，和J作为参数
-class X(object):
-    def __init__(self,J):
-
-# 类X有一个名为M的函数，它接收self和J作为参数
-class X(object):
-    def M(self,j):
-
-# 将foo设为类X的一个实例
-foo = X()
-# 从foo中找到M函数，并使用self和J作为参数
-foo.M(J)
-# 从foo中获取K属性并将其设置为Q
-foo.k = Q
+# class X(Y):
+#     pass
+#
+# # 类X有一个__init__，它接收self，和J作为参数
+# class X(object):
+#     def __init__(self,J):
+#
+# # 类X有一个名为M的函数，它接收self和J作为参数
+# class X(object):
+#     def M(self,j):
+#
+# # 将foo设为类X的一个实例
+# foo = X()
+# # 从foo中找到M函数，并使用self和J作为参数
+# foo.M(J)
+# # 从foo中获取K属性并将其设置为Q
+# foo.k = Q
 
 
