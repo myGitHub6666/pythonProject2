@@ -8,7 +8,8 @@ def func(dic):
         if len(value) >= 2:
             dic[key] = value[0:2]
         else:
-            dic[key] = value
+            # dic[key] = value  # 写不写这句话好像没区别？？？？
+            pass
     return dic
 
 
