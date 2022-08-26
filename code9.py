@@ -4,6 +4,7 @@
 # 提供可以设置私有属性的方法
 # 设置年龄在0-120的方法，如果不在这个范围不能设置成功
 class Person:
+    # 传入的参数名称，可以任意取，不一定和本身的属性名一致。
     def __init__(self,name,age):
         self.__name = name
         self.__age = age
